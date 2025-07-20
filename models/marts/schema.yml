@@ -1,0 +1,47 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: Customer dimension with enriched attributes
+    columns:
+      - name: customer_key
+        description: Surrogate key for customer
+        tests:
+          - unique
+          - not_null
+      - name: customer_id
+        description: Natural key for customer
+        tests:
+          - unique
+          - not_null
+      - name: email
+        description: Customer email
+        tests:
+          - not_null
+
+  - name: dim_products
+    description: Product dimension
+    columns:
+      - name: product_key
+        tests:
+          - unique
+          - not_null
+      - name: cost
+        tests:
+          - not_null
+        description: Product price
+        
+  - name: fact_orders
+    description: Order fact table with metrics
+    columns:
+      - name: order_key
+        tests:
+          - unique
+          - not_null
+      - name: status
+        tests:
+          - accepted_values:
+              values: ['Completed', 'Pending', 'Cancelled']
+      - name: total_amount
+        tests:
+          - not_null
