@@ -1,1 +1,13 @@
-
+planetkart:
+  outputs:
+    dev:
+      account: mneelvj-lb75651
+      database: A_DATABASE
+      password: Qwerty@123456789
+      role: A_ROLE
+      schema: PLANETKART_RAW
+      threads: 1
+      type: snowflake
+      user: A_USER
+      warehouse: A_WAREHOUSE
+  target: dev
