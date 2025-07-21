@@ -57,6 +57,9 @@ You can view the data model relationships using either of the following:
 ### 🔧 Setup Instructions
 
 1. Clone the repo
+   ```bash
+   https://github.com/subham-abd-17/Planetkart-Project.git
+   ```
 
 2. Install dependencies:
     ```bash
