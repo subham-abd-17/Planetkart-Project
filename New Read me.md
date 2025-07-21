@@ -2,7 +2,7 @@
 
 ## 📚 Overview
 
-This repository contains a complete **dbt** project that transforms and models the **PlanetKart e-commerce** dataset for analytics purposes. The project includes staging, intermediate, and fact/dimension models along with snapshots and tests to ensure data quality and historical tracking.
+This repository contains a complete **dbt** project that transforms and models the **PlanetKart e-commerce** dataset for analytics purposes. The project includes staging and fact/dimension models along with snapshots and tests to ensure data quality and historical tracking.
 
 ---
 
