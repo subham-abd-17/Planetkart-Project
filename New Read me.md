@@ -27,6 +27,7 @@ This repository contains a complete **dbt** project that transforms and models t
 - All models are tested for:
   - Not null
   - Uniqueness
+- Dry up logic is used to generate surrogate key in all the tables.
 - Snapshotting is configured using `TIMESTAMP_LTZ` fields for auditability.
 
 ---
