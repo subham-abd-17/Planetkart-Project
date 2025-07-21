@@ -117,3 +117,30 @@ You can view the data model relationships using either of the following:
 
 ## 📂 Folder Structure
 
+planetkart/
+│
+├── macros/
+│   └── generate_keys.sql
+│
+├── models/
+│   ├── marts/
+│   │   ├── dim_customers.sql
+│   │   ├── dim_products.sql
+│   │   ├── dim_regions.sql
+│   │   └── fact_orders.sql
+│   │   ├── schema.yml
+│   │
+│   └── staging/
+│       ├── stage_customers.sql
+│       ├── stage_order_items.sql
+│       ├── stage_orders.sql
+│       ├── stage_products.sql
+│       └── stage_regions.sql
+│       ├── schema.yml
+│
+├── snapshots/
+│   └── customers_snapshot.sql
+│
+├── dbt_project.yml
+│
+├── packages.yml
