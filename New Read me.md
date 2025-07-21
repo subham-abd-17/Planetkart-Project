@@ -56,11 +56,7 @@ You can view the data model relationships using either of the following:
 
 ### 🔧 Setup Instructions
 
-1. Clone the repo:
-    ```bash
-    git clone https://github.com/your-username/planetkart-dbt.git
-    cd planetkart-dbt
-    ```
+1. Clone the repo
 
 2. Install dependencies:
     ```bash
