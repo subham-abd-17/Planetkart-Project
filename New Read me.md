@@ -87,18 +87,21 @@ You can view the data model relationships using either of the following:
 
 ## 📸 Screenshots
 
-### ✅ Hevo Pipeline Setup
-![Hevo Pipeline](images/hevo-pipeline.png) <!-- Replace with actual screenshot -->
+### ✅ Airbyte Pipeline Setup
+
+<img width="644" height="384" alt="image" src="https://github.com/user-attachments/assets/696f70b3-5c09-475e-9723-118e20745c5a" />
+
+<img width="645" height="391" alt="image" src="https://github.com/user-attachments/assets/ea763127-6be6-4e30-b9fc-9ad95a6f52a7" />
+
 
 ### ✅ Data Loaded in Snowflake
-![Snowflake Data](images/snowflake-tables.png) <!-- Replace with actual screenshot -->
+<img width="656" height="372" alt="image" src="https://github.com/user-attachments/assets/7af2b7f8-2578-45d6-8856-d3c015a1dfd0" />
 
 ---
 
 ## 🧪 Testing Summary
 
 - All tests passing ✅
-- Includes custom expression-based tests for data freshness
 - Snapshot-based SCD2 implemented for customers
 
 ---
