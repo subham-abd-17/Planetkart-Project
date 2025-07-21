@@ -10,23 +10,23 @@ This repository contains a complete **dbt** project that transforms and models t
 
 ### 📐 Project Structure
 
-- **Staging Layer (`stg_`)**: Cleanses raw data and applies column naming conventions.
-- **Intermediate Layer (`int_`)** *(optional)*: Used for logic reuse when needed.
+- **Staging Layer (`stage_`)**: Cleanses raw data and applies column naming conventions.
 - **Fact & Dimension Models**:
   - `dim_customers`: Customer-level dimension table.
+  - `dim_products`: Product-level dimension table.
+  - `dim_regions`: Region-level dimension table.
   - `fact_orders`: Aggregated order-level fact table.
 - **Snapshots**:
   - `customers_snapshot`: Tracks changes to customer data over time using `updated_at` strategy.
 
 ### 📦 Naming Conventions
-- Table names follow `dim_` / `fact_` / `stg_` prefixes.
+- Table names follow `dim_` / `fact_` / `stage_` prefixes.
 - Surrogate keys are generated using `dbt_utils.generate_surrogate_key`.
 
 ### 🧪 Testing & Data Quality
 - All models are tested for:
   - Not null
   - Uniqueness
-  - Freshness (custom tests via `dbt-utils`)
 - Snapshotting is configured using `TIMESTAMP_LTZ` fields for auditability.
 
 ---
