@@ -77,7 +77,17 @@ You can view the data model relationships using either of the following:
     dbt test
     ```
 
-5. Generate and view documentation:
+5. Run Snapshot:
+    ```bash
+    dbt snapshot
+    ```
+
+6. Run whole pipeline:
+    ```
+    dbt build
+    ```
+
+7. Generate and view documentation:
     ```bash
     dbt docs generate
     dbt docs serve
