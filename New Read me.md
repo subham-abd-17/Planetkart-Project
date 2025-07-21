@@ -35,10 +35,15 @@ This repository contains a complete **dbt** project that transforms and models t
 ## 🗺️ Schema Diagram
 
 You can view the data model relationships using either of the following:
-- **[Draw.io Diagram](link_to_your_diagram)** – Manually drawn schema
+- Manually drawn schema -
+  <img width="3840" height="1115" alt="image" src="https://github.com/user-attachments/assets/1e246b6b-8b77-429e-954c-222cbdd8a3f6" />
+
+  <img width="3116" height="3840" alt="image" src="https://github.com/user-attachments/assets/ae1601fc-62f1-46b2-b9d9-667e2c195062" />
+
 - **dbt DAG View**: Automatically generated in dbt Cloud or by running `dbt docs generate && dbt docs serve`
 
-![Schema Diagram](images/schema-diagram.png) <!-- Replace with your actual diagram path -->
+<img width="1426" height="768" alt="image" src="https://github.com/user-attachments/assets/ae3cd9d9-a26d-489c-a67c-1e8ed5eee668" />
+
 
 ---
 
