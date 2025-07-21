@@ -1,5 +1,20 @@
 # Planetkart-Project
 
+dbt DAG includes:
+
+✅ 5 source tables
+✅ 5 staging models
+✅ 3 dimension tables
+✅ 1 fact table
+✅ 1 snapshot table
+✅ Clear data flow visualization
+
+Schema Diagram includes:
+
+✅ Star schema design
+✅ Primary/foreign key relationships
+✅ All table columns with data types
+✅ SCD Type 2 implementation
 
 # Planetkart dbt DAG Diagram
 
